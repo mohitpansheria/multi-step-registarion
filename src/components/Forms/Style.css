@@ -1,0 +1,207 @@
+.centerDiv{
+    max-width: 1000px;
+    width: 100%;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo img{
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 2rem;
+
+}
+
+.form-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form-info-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+
+}
+
+.form-info-desc{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    color: #616161
+}
+
+.form-group{
+    margin: 0 3rem;
+}
+
+.form-group{
+    margin: 1rem 0
+}
+
+.form-lable, .form-lable2{
+    color: #616161
+}
+
+.form-lable:before {
+  color: red;
+  content: "* ";
+}{}
+
+.email-notice{
+    color: #616161;
+    font-weight: 600;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.form-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.cta{
+    padding: 8px 50px !important;
+    margin: 0 10px !important;
+    background: #616161 !important;
+    border-color: transparent !important;
+}
+
+.arw-btn{
+    background: #616161 !important;
+    border-color: transparent !important;
+}
+
+.form-control[type=file]::-webkit-file-upload-button{
+    color: transparent;
+    background: url("../../assets/Upload.svg") no-repeat center center;
+    float: right;
+    border: none;
+    margin: 0;
+    width: 10%;
+    padding: 0;
+}
+
+.form-control[type=file]::-webkit-file-upload-button:hover {
+	background-color: #000 !important;
+    color: #000;
+}
+
+.info {
+    background-color: #efefef ;
+    margin: 2rem 0;
+    padding: .5rem 1rem;
+}
+
+.sign-btn{
+    background-color: #ead943;
+     padding: 8px 60px !important;
+    margin: 0 10px !important;
+    border-radius: 52px;
+    border-color: transparent !important;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+ .progress-bar {
+    background-color: #cd5b1c;
+}
+
+.progress-bar-striped {
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-size: 1rem 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .centerDiv{
+        padding: 1rem 2rem;
+    }
+    .form-group{
+        margin: 0
+    }
+    .form-info-title{
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    .form-info-desc{
+        margin-bottom: 0;
+    }
+    .form-group{
+        margin: 0
+    }
+    .form-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .cta{
+        padding: 8px 10px !important;
+        margin: 0 10px !important;
+    }
+    .type-select{
+        margin: 0.5rem 0
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .centerDiv{
+        padding: 2rem 3rem;
+    }
+
+    .step-formOverflow{
+        height: 30rem;
+        overflow-y: auto;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .centerDiv{
+        padding: 2rem 2rem;
+    }
+    .logo img{
+        margin: 1rem;
+    }
+    .form-group{
+        margin: 0
+    }
+    .form-info-title{
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    .form-info-desc{
+        margin-bottom: 0;
+    }
+    .form-group{
+        margin: 0
+    }
+    .form-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .cta{
+        padding: 8px 10px !important;
+        margin: 0 10px !important;
+    }
+
+}
